@@ -13,12 +13,7 @@ function Career() {
           {movies.map((movie, index) => {
             return (
               <div className="movie" key={index}>
-                <img
-                  src={movie.picture_url}
-                  width={800}
-                  height={400}
-                  alt="we"
-                />
+                <img src={movie.picture_url} alt="we" />
                 <h1>
                   {movie.title}, {movie.year}
                 </h1>
