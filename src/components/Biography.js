@@ -2,7 +2,7 @@ import React from "react";
 
 function Biography() {
   return (
-    <main>
+    <section className="biography">
       <div className="biography-container">
         <div className="title-container">
           <h1>Biography</h1>
@@ -40,7 +40,7 @@ function Biography() {
           </p>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 
