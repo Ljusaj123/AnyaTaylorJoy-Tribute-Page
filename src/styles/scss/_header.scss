@@ -7,7 +7,7 @@ header {
       rgba(0, 0, 0, 0.966),
       $primary-background-color
     ),
-    url("/src/public/images.jpeg") no-repeat fixed right;
+    url("/public/images.jpeg") no-repeat fixed right;
 
   background-size: contain;
   @include universal-flex-display(flex-start, center);
