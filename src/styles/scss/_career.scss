@@ -1,7 +1,7 @@
 .career {
   height: fit-content;
   width: 100vw;
-  padding: 2rem;
+  padding: 4rem 2rem;
   background-color: $secondary-background-color;
   @include universal-flex-display(center, center);
 
@@ -39,8 +39,8 @@
 
         & img {
           border-radius: 15px;
-          height: 300px;
-          width: 300px;
+          height: clamp(200px, 80%, 400px);
+          width: clamp(300px, 80%, 800px);
         }
 
         & h1 {
