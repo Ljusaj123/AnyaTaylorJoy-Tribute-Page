@@ -27,7 +27,7 @@ header {
   }
 
   & blockquote {
-    font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
     text-align: center;
     font-style: italic;
     margin-bottom: 0.5rem;
@@ -37,5 +37,23 @@ header {
     font-size: clamp(0.8rem, 2.5vw, 1rem);
     width: 100%;
     text-align: right;
+  }
+}
+
+@include media-700 {
+  header {
+    background: linear-gradient(
+        -120deg,
+        rgba(0, 0, 0, 0.685),
+        rgba(0, 0, 0, 0.836),
+        $primary-background-color
+      ),
+      url("/public/images.jpeg") fixed center;
+
+    & .header-container {
+      width: 100%;
+      background: transparent;
+      padding: 2rem;
+    }
   }
 }

@@ -39,6 +39,8 @@
 
         & img {
           border-radius: 15px;
+          height: 300px;
+          width: 300px;
         }
 
         & h1 {
@@ -51,5 +53,12 @@
         }
       }
     }
+  }
+}
+
+@include media-700 {
+  .career .movies-container {
+    row-gap: 3rem;
+    grid-template-columns: 1fr;
   }
 }
